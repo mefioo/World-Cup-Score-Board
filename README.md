@@ -31,7 +31,7 @@ Creates new match and adds it to the scoreboard with the initial scores set to 0
 ```js
 scoreboard.startMatch('Poland', 'Slovakia');
 ```
-
+---
 ```
 updateScore(homeTeamScore: number, awayTeamScore: number, matchId: string) => ScoreBoard
 ```
@@ -40,7 +40,7 @@ Updates the match score based on provided score values.
 ```js
 scoreboard.updateScore(0, 2, 'Poland-Slovakia');
 ```
-
+---
 
 ```
 finishMatch(matchId: string) => ScoreBoard
@@ -50,7 +50,7 @@ finishMatch(matchId: string) => ScoreBoard
 ```js
 scoreboard.finishMatch('Poland-Slovakia');
 ```
-
+---
 ```
 getSummary(homeTeam: string, awayTeam: string) => Array<Match>
 ```
