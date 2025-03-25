@@ -41,10 +41,11 @@ Updates the match score based on provided score values.
 scoreboard.updateScore(0, 2, 'Poland-Slovakia');
 ```
 
+
 ```
 finishMatch(matchId: string) => ScoreBoard
 ```
-Finishes previously started match and removes it from the scoreboard matches.
+  Finishes previously started match and removes it from the scoreboard matches.
 
 ```js
 scoreboard.finishMatch('Poland-Slovakia');
