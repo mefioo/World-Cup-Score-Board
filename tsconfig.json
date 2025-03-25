@@ -1,10 +1,20 @@
 {
   "compilerOptions": {
-    "types": ["jest"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
   },
   "typeAcquisition": {
     "include": [
       "jest"
     ]
-  }
+  },
+  "include": ["src", "src/__tests__"],
+  "exclude": ["node_modules"]
 }
