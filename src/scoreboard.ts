@@ -30,7 +30,7 @@ export class ScoreBoard {
     return this
   }
 
-  findMatchIndex(matchId: string) {
+  private findMatchIndex(matchId: string) {
     const matchIndex = this.matches.findIndex((match) => match.id === matchId)
 
     return matchIndex
